@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ستاربكس</title>
+    <link  rel="stylesheet" type="text/Css" href="./css/style.css" />
+</head>
+<body>
+<!-- لما تضغطين على الشعار يروح موقع ستاربكس -->
+    <div>
+        <a target="-blank" href="https://www.starbucksathome.com/me/ar-ae/?gclid=CjwKCAjw26H3BRB2EiwAy32zhabspJXZRvYJtGnpXat5HJGZf1bBukJ6b4IopHT4XWoky0C3yLEN_RoC6kEQAvD_BwE&gclsrc=aw.ds" style="text-decoration: none;"> <img src="./images/starbucks.png" /></a> >
+    </div>
+
+    <h2>كافيه ستاربكس</h2>
+    <span>ستاربكس من افضل الكافيهات الموجوده في العالم </span>
+        
+ </p> 
+
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script async defer
+    src="https://www.google.com/maps/search/%D8%B3%D8%AA%D8%A7%D8%B1%D8%A8%D9%83%D8%B3%E2%80%AD/@29.3164226,48.1160002,12z/data=!3m1!4b1">
+    </script>
+  </body>
+</html>  
+
+
+        <a href="index.html" >
+            <input type="button" value="الرجوع" size="1px" />
+          </a>
+      </div>
+
+
+</body>
+</html>

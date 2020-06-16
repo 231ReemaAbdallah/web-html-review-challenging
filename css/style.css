@@ -1,0 +1,57 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .background{
+  background-color: mintcream;
+  color: darkslategrey;
+  text-align: center;
+  }
+
+  .table{
+    font-weight: 800px;
+    font-size: 18px;
+    background: lightblue;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+ }
+  
+
+ td{
+    padding: 10px;
+ }
+
+ td:hover{
+    background-color: paleturquoise;
+ }
+
+ .table img{
+    width: 100px;
+    }
+
+
+    ul{
+        padding-left: 0px;
+        list-style-type: none;
+    }
+
+.a {
+        text-decoration: none;
+        }
+
+  #map{
+    height:400px
+    /* width: 100%; */
+   }
+
+.page2{
+    background-color:silver;
+    color:black;
+    text-align: center;
+ font-weight: 800px;
+font-size: 18px;
+text-align: center;
+}
